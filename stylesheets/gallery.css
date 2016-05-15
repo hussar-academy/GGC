@@ -1,0 +1,98 @@
+.gallery {
+  background-color: #222;
+  padding-bottom: 64px;
+}
+
+.gallery__title {
+  margin-top: 0;
+  margin-bottom: 32px;
+  padding-top: 64px;
+  color: #fafafa;
+  font-family: "Satisfy", cursive;
+  font-size: 72px;
+  text-align: center;
+  cursor: default;
+}
+
+.gallery__content {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 1050px;
+}
+
+.gallery__column {
+  display: inline-block;
+  vertical-align: top;
+  width: 320px;
+}
+
+.gallery__column:nth-of-type(2) {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.box-container {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.box {
+  width: 360px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: grayscale(100%);
+  transform: translate3d(-40px, 0, 0);
+  transition: -webkit-filter 0.2s ease, transform 0.35s ease;
+}
+
+.box:hover {
+  -webkit-filter: grayscale(0);
+  transform: translate3d(0, 0, 0);
+}
+
+.box--1 {
+  background-image: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/0V5X4BLBVW.jpg");
+  height: 300px;
+}
+
+.box--2 {
+  background-image: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/GEJ6ML9NHQ.jpg");
+  height: 200px;
+}
+
+.box--3 {
+  background-image: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/F9CY5LINR8.jpg");
+  height: 500px;
+}
+
+.box--4 {
+  background-image: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/CN7PZ9F1M6.jpg");
+  height: 250px;
+}
+
+.box--5 {
+  background-image: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/1C1A9389B4.jpg");
+  height: 400px;
+}
+
+.box--6 {
+  background-image: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/ANC5ACJ7V0.jpg");
+  height: 350px;
+}
+
+.box--7 {
+  background-image: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/TQ44FVSM3Y.jpg");
+  height: 300px;
+}
+
+.box--8 {
+  background-image: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/2LR3SBM150.jpg");
+  height: 500px;
+}
+
+.box--9 {
+  background-image: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/6U6EAPKKD7.jpg");
+  height: 200px;
+}
