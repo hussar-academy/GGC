@@ -6,3 +6,4 @@
 * Hero photo (landing): ```1-hero```
 * Nawigacja: ```2-nawigacja```
 * About: ```3-about```
+* Galeria: ```4-galeria```
