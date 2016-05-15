@@ -4,4 +4,4 @@
 
 * Pliki wyjściowe: ```master```
 * Hero photo (landing): ```1-hero```
-
+* Nawigacja: ```2-nawigacja```
