@@ -12,7 +12,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("images/landing.jpg");
+  background-image: url("../images/landing.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -20,12 +20,13 @@
 
 .landing__title {
   margin-top: 0;
-  margin-bottom: 5vh;
-  padding-top: 25vh;
+  margin-bottom: 48px;
+  padding-top: 192px;
   color: #d2d0d3;
   font-family: "Satisfy", cursive;
   font-size: 90px;
   text-align: center;
+  cursor: default;
 }
 
 .landing__button {
@@ -35,7 +36,7 @@
   border-radius: 6px;
   background-color: #1b998b;
   color: #f0f0f0;
-  font-family: "Source Sans Pro", sans;
+  font-family: "Raleway", sans;
   font-size: 24px;
   font-weight: 700;
   text-decoration: none;
