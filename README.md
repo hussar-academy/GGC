@@ -7,3 +7,4 @@
 * Nawigacja: ```2-nawigacja```
 * About: ```3-about```
 * Galeria: ```4-galeria```
+* Kontakt: ```5-kontakt```

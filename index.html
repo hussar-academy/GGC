@@ -12,6 +12,7 @@
     <link type="text/css" rel="stylesheet" href="stylesheets/about.css">
     <link type="text/css" rel="stylesheet" href="stylesheets/gallery.css">
     <link type="text/css" rel="stylesheet" href="stylesheets/contact.css">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
   </head>
   <body>
     <header class="topbar">
@@ -32,7 +33,7 @@
       <section class="landing">
         <div class="landing__bg"></div>
         <h1 class="landing__title">Hi, I'm a Geek!</h1>
-        <a href="#" class="landing__button">show me!</a>
+        <a href="#about" class="landing__button">show me!</a>
       </section>
       <section class="about" id="about">
         <div class="about__content">
@@ -146,6 +147,33 @@
             <div class="box-container">
               <div class="box box--9"></div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="contact__content">
+          <h2 class="contact__title">Contact</h2>
+          <div class="contact__column">
+            <h3 class="contact__column-title">Get in touch</h3>
+            <a href="#facebook" class="contact__social-link">
+              <i class="fa fa-facebook fa-3x contact__icon" aria-hidden="true"></i>
+            </a>
+            <a href="#facebook" class="contact__social-link">
+              <i class="fa fa-twitter fa-3x contact__icon" aria-hidden="true"></i>
+            </a>
+            <a href="#facebook" class="contact__social-link">
+              <i class="fa fa-instagram fa-3x contact__icon" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="contact__column">
+            <form>
+              <h3 class="contact__column-title">Leave me a note</h3>
+              <input class="contact__input" type="text" name="firstName" placeholder="your first name..." />
+              <input class="contact__input" type="text" name="lastName" placeholder="your last name..." />
+              <input class="contact__input" type="text" name="email" placeholder="your email..." />
+              <textarea class="contact__input contact__textarea" placeholder="your message..."></textarea>
+              <button class="contact__button" type="submit">Send</button>
+            </form>
           </div>
         </div>
       </section>

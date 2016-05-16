@@ -1,0 +1,99 @@
+.contact {
+  background-color: #81cde7;
+  padding-bottom: 90px;
+}
+
+.contact__content {
+  margin: 0 auto;
+  max-width: 1024px;
+  text-align: center;
+}
+
+.contact__title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  padding-top: 64px;
+  color: #fafafa;
+  font-family: "Satisfy", cursive;
+  font-size: 72px;
+  text-align: center;
+  cursor: default;
+}
+
+.contact__column {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.contact__column:nth-of-type(1) {
+  margin-right: 90px;
+}
+
+.contact__column:nth-of-type(2) {
+  margin-left: 90px;
+}
+
+.contact__column-title {
+  margin-bottom: 36px;
+  color: #fafafa;
+  font-family: "Raleway", sans;
+  font-size: 24px;
+  font-weight: 400;
+  cursor: default;
+}
+
+.contact__social-link {
+  text-decoration: none;
+}
+
+.contact__social-link:nth-of-type(2) {
+  margin: 0 40px;
+}
+
+.contact__icon {
+  color: #fafafa;
+}
+
+.contact__input {
+  display: block;
+  margin: 12px 0;
+  padding: 8px 16px;
+  width: 240px;
+  color: #fafafa;
+  background: transparent;
+  border: 2px solid #c1e5f1;
+  font-family: "Raleway", sans;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.contact__input:focus {
+  outline: none;
+}
+
+.contact__textarea {
+  min-height: 80px;
+  resize: none;
+}
+
+.contact__button {
+  margin-top: 24px;
+  padding: 12px 16px;
+  width: 240px;
+  color: #fafafa;
+  background: transparent;
+  border: 2px solid #c1e5f1;
+  font-family: "Raleway", sans;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.contact__button:hover {
+  color: #81cde7;
+  background-color: #fafafa;
+  border-color: #fafafa;
+}
