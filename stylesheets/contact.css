@@ -1,6 +1,20 @@
 .contact {
-  background-color: #81cde7;
+  position: relative;
   padding-bottom: 90px;
+  background-color: rgba(129, 205, 231, 0.9);
+}
+
+.contact:after {
+  position: absolute;
+  z-index: -5;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/X0R5VP6BSB.jpg");
+  background-size: cover;
+  background-position: center center;
+  content: "";
 }
 
 .contact__content {
@@ -51,8 +65,31 @@
   margin: 0 40px;
 }
 
+.contact__phone,
+.contact__fax {
+  display: block;
+  color: #fafafa;
+  font-family: "Raleway", sans;
+  font-size: 24px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.contact__phone {
+  margin-top: 48px;
+}
+
+.contact__fax {
+  margin-top: 12px;
+}
+
 .contact__icon {
   color: #fafafa;
+}
+
+.contact__icon--small {
+  margin-right: 24px;
+  color: #c1e5f1;
 }
 
 .contact__input {
