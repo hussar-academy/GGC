@@ -49,6 +49,7 @@
 
 .about__desciption:first-letter {
   font-size: 200%;
+  line-height: normal;
 }
 
 .skills__column {
